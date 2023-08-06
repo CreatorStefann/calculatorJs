@@ -1,1 +1,2 @@
 # calculatorJs
+This is the last project of The Odin Project -> Foundation section. This is a calculator built using HTML, CSS and JavaScript. It has the basic operations a calculator uses ('+', '-', '*', '/') and it is not designed to be fancy looking, but reliable.
