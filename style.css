@@ -40,9 +40,16 @@ body{
 }
 
 .afisajsiecran {
-    margin-right: 50px;
+    margin-right: 20px;
     color: black;
-    font-size: 30px;
+    font-size: 24px;
+    word-break: break-word;
+    padding-left: 5px;
+    direction: rtl;
+    max-height: 150px;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
 }
 
 .butoanesuperior{
@@ -76,6 +83,26 @@ body{
     border: 4px solid rgba(255, 0, 0, 0.322);
 }
 
+.impartire, 
+.inmultit,
+.plus,
+.minus,
+.egal{
+    background-color: #abc;
+}
+
+.impartire:active, 
+.inmultit:active,
+.plus:active,
+.minus:active,
+.egal:active{
+    background-color: rgba(170, 187, 204, 0.336);
+}
+
+.elementcalculator:active{
+    background-color: #eeeeee60;
+}
+
 .elementcalculator:nth-of-type(16){
     width: calc(2*300px/4 + 20px);
     border-radius: 40px;
@@ -87,6 +114,15 @@ body{
     background-color: #aaf;
 }
 
+.elementcalculator:nth-of-type(1):active{
+    background-color: rgba(170, 170, 255, 0.541);
+}
+
+
 .elementcalculator:nth-of-type(2){
     background-color: #faa;
+}
+
+.elementcalculator:nth-of-type(2):active{
+    background-color: rgba(255, 170, 170, 0.63);
 }
