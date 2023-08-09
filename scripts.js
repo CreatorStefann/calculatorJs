@@ -44,7 +44,7 @@ function afisare() {
                 cnt = 0;
                 if(!button.classList.contains('egal'))
                 {
-                    element1 = ecran.textContent;
+                    element1 = parseFloat(ecran.textContent);
                     butonApasat = button.textContent;
                     cnt = 1;
                     ecran.textContent = "";
